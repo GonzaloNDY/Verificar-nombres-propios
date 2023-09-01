@@ -1,4 +1,4 @@
-La función principal, esNombreValido, verifica si una cadena de texto cumple con ciertos criterios específicos para considerarse un nombre válido. Estos criterios incluyen que el nombre contenga únicamente letras minúsculas (sin acentos) y espacios, además de permitir un máximo de tres nombres y tres apellidos.
+La función principal, esNombreValido, verifica si una cadena de texto cumple con ciertos criterios específicos para considerarse un nombre válido. Estos criterios incluyen que el nombre contenga únicamente caracteres alfabeticos (sin acentos) y espacios, además de permitir un máximo de tres nombres y tres apellidos.
 
 La función secundaria, contarPalabras, se utiliza dentro de esNombreValido para contar la cantidad de palabras en una cadena de texto. Esto es fundamental para la validación de nombres.
 
