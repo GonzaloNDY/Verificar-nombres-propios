@@ -5,6 +5,9 @@
 
 #define MAX 200
 
+int contarPalabras(char cadena[]);
+int esNombreValido(char nombre[]);
+
 int esNombreValido(char nombre[]){
     if (strlen(nombre) == strspn(nombre, "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM ") && contarPalabras(nombre) <= 3){  // Se aceptarán como válidos solo hasta 3 nombres y 3 apellidos
         return 1;
